@@ -1,0 +1,6 @@
+com\mycompany\surgery\Animal.class
+module-info.class
+com\mycompany\surgery\WaitingList.class
+com\mycompany\surgery\SystemInfo.class
+com\mycompany\surgery\Person.class
+com\mycompany\surgery\Veterinary.class
