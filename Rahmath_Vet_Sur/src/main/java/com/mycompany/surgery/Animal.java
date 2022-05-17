@@ -28,7 +28,9 @@ public class Animal implements Serializable {
  *this code will return Animal information. 
  *@return 
      */
-    public Animal(String animal_type, String animal_breed, String animal_name, String animal_gender, String animal_colour, String animal_issue, double age, double weight, Person owner) {
+    public Animal(String animal_type, String animal_breed, String animal_name, 
+    String animal_gender, String animal_colour, String animal_issue, double age, 
+    double weight, Person owner) {
         this.animal_type = animal_type;
         this.animal_breed = animal_breed;
         this.animal_name = animal_name;

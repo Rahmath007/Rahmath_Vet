@@ -86,14 +86,14 @@ public class Veterinary extends Application {
         if (!showPatientsList()) {
             animalList = new WaitingList(20);
         }
-        // This is the box for 
+        // This is the box for animal type
         box.setPromptText("Animal Type");
         box.getItems().addAll("Dog", "Cat", "Rabbit", "Snake", "Kangaroo", "Monkey", "Hamster", "Panda", "Rat", "Alligator", "Tiger", "Leopard", "Parrot", "Llama", "Turtle", "Goldfish", "Duck");
         VBox root2 = new VBox(10);
         root2.setPadding(new Insets(20, 20, 20, 20));
         root2.setAlignment(Pos.TOP_CENTER);
 
-        //create horizontal boxes for the bike and owner details
+        //create horizontal boxes for the animal and owner details
         HBox animalDetails = new HBox(10);
         HBox ownerDetails = new HBox(10);
         HBox boxDetailes = new HBox(50);
@@ -130,7 +130,7 @@ public class Veterinary extends Application {
         root.setBackground(Background.EMPTY);
         // set minimum and maximum width of components 
 
-        displayAnimals.setMaxSize(400, 700);
+        displayAnimals.setMaxSize(400, 1000);
         displayAnimals.appendText(animalList.displayWaitingList());
 
         stage.setWidth(WIDTH);
